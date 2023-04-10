@@ -5,7 +5,6 @@ async function getCountryName(code) {
     //Procura todas as paginas de países (25 paginas no total)
     for(let i = 1; i < 26; i++){
         const countries = await axios(`https://jsonmock.hackerrank.com/api/countries?page=${i}`);
-        console.log(countries)
         //percorre todos os países de todas as páginas
         countries.data.data.forEach(c => {
             //retorna o país com a sigla informada
