@@ -1,8 +1,7 @@
 # Analise-de-Dados-API
 Exercício para analise  de dados de API via json feito no hackerhank
 
-### Disponibilizada uma API que contém informações sobre inúmeros países, criar uma função que pesquisa o país pela sigla e retorna
-seu  nome.
+### Disponibilizada uma API que contém informações sobre inúmeros países, criar uma função que pesquisa o país pela sigla e retorna seu nome.
 
 ## Dados importantes: 
  - O atributo alpha2Code representa a sigla do país.
