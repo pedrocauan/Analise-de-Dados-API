@@ -11,3 +11,4 @@ seu  nome.
 
 ## Link da API
 ### https://jsonmock.hackerrank.com/api/countries?page=<NUMBER_PAGE>
+#### exemplo: https://jsonmock.hackerrank.com/api/countries?page=2
