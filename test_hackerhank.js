@@ -1,7 +1,6 @@
 const axios = require("axios");
 async function getCountryName(code) {
     let country = "NOT FOUND";
-
     //Procura todas as paginas de países (25 paginas no total)
     for(let i = 1; i < 26; i++){
         const countries = await axios(`https://jsonmock.hackerrank.com/api/countries?page=${i}`);
